@@ -1,0 +1,23 @@
+# Configure main menu and social menu
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = true
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/zechao"
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/zechao-jin-676866150/"
+#icon name must match you svg name
+[social.params]
+icon = "linkedin" 

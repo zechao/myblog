@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="My first blog using Hugo">
+<meta name="keywords" content="Hugo, Resume, CV, Tutorial"><title>Hello world</title>
+
+<link rel='canonical' href='http://localhost:8080/post/first_post/'>
+
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Hello world">
+<meta property='og:description' content="My first blog using Hugo">
+<meta property='og:url' content='http://localhost:8080/post/first_post/'>
+<meta property='og:site_name' content='Zechao Jin'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Hugo' /><meta property='article:tag' content='Cloudflare' /><meta property='article:tag' content='Github' /><meta property='article:published_time' content='2025-02-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-02-15T00:00:00&#43;00:00'/><meta property='og:image' content='http://localhost:8080/post/first_post/image.png' />
+<meta name="twitter:title" content="Hello world">
+<meta name="twitter:description" content="My first blog using Hugo"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://localhost:8080/post/first_post/image.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/zechao_hu_a8cfd80afc8a8f46.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Zechao Jin</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/zechao'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.linkedin.com/in/zechao-jin-676866150/'
+                        target="_blank"
+                        title="Linkedin"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/page/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#h2-heading">h2 Heading</a>
+      <ul>
+        <li><a href="#h3-heading">h3 Heading</a></li>
+      </ul>
+    </li>
+    <li><a href="#horizontal-rules">Horizontal Rules</a></li>
+    <li><a href="#typographic-replacements">Typographic replacements</a></li>
+    <li><a href="#emphasis">Emphasis</a></li>
+    <li><a href="#blockquotes">Blockquotes</a></li>
+    <li><a href="#lists">Lists</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#tables">Tables</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#images">Images</a></li>
+    <li><a href="#plugins">Plugins</a>
+      <ul>
+        <li><a href="#emojies"><a href="https://github.com/markdown-it/markdown-it-emoji">Emojies</a></a></li>
+        <li><a href="#subscript--superscript"><a href="https://github.com/markdown-it/markdown-it-sub">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup">Superscript</a></a></li>
+        <li><a href="#ins"><a href="https://github.com/markdown-it/markdown-it-ins">&lt;ins&gt;</a></a></li>
+        <li><a href="#mark"><a href="https://github.com/markdown-it/markdown-it-mark">&lt;mark&gt;</a></a></li>
+        <li><a href="#footnotes"><a href="https://github.com/markdown-it/markdown-it-footnote">Footnotes</a></a></li>
+        <li><a href="#definition-lists"><a href="https://github.com/markdown-it/markdown-it-deflist">Definition lists</a></a></li>
+        <li><a href="#abbreviations"><a href="https://github.com/markdown-it/markdown-it-abbr">Abbreviations</a></a></li>
+        <li><a href="#custom-containers"><a href="https://github.com/markdown-it/markdown-it-container">Custom containers</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/first_post/">
+                <img src="/post/first_post/image_hu_80002cf1db2e8ed5.png"
+                        srcset="/post/first_post/image_hu_80002cf1db2e8ed5.png 800w, /post/first_post/image_hu_77d871f68de28565.png 1600w"
+                        width="800" 
+                        height="234" 
+                        loading="lazy"
+                        alt="Featured image of post Hello world" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/others/" >
+                Others
+            </a>
+        
+            <a href="/categories/tutorial/" >
+                Tutorial
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/first_post/">Hello world</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            My first blog using Hugo
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Feb 15, 2025</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="hello-world">Hello world
+</h1><p>this is an example from github</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># some commands</span>
+</span></span><span style="display:flex;"><span>ls
+</span></span><span style="display:flex;"><span>clear
+</span></span></code></pre></div><p><strong>Advertisement :)</strong></p>
+<ul>
+<li><strong><a class="link" href="https://nodeca.github.io/pica/demo/"  target="_blank" rel="noopener"
+    >pica</a></strong> - high quality and fast image
+resize in browser.</li>
+<li><strong><a class="link" href="https://github.com/nodeca/babelfish/"  target="_blank" rel="noopener"
+    >babelfish</a></strong> - developer friendly
+i18n with plurals support and easy syntax.</li>
+</ul>
+<p>You will like those projects!</p>
+<hr>
+<h1 id="h1-heading-8">h1 Heading 8
+</h1><h2 id="h2-heading">h2 Heading
+</h2><h3 id="h3-heading">h3 Heading
+</h3><h4 id="h4-heading">h4 Heading
+</h4><h5 id="h5-heading">h5 Heading
+</h5><h6 id="h6-heading">h6 Heading
+</h6><h2 id="horizontal-rules">Horizontal Rules
+</h2><hr>
+<hr>
+<hr>
+<h2 id="typographic-replacements">Typographic replacements
+</h2><p>Enable typographer option to see result.</p>
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
+<p>test.. test&hellip; test&hellip;.. test?&hellip;.. test!&hellip;.</p>
+<p>!!!!!! ???? ,,  &ndash; &mdash;</p>
+<p>&ldquo;Smartypants, double quotes&rdquo; and &lsquo;single quotes&rsquo;</p>
+<h2 id="emphasis">Emphasis
+</h2><p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p><del>Strikethrough</del></p>
+<h2 id="blockquotes">Blockquotes
+</h2><blockquote>
+<p>Blockquotes can also be nested&hellip;</p>
+<blockquote>
+<p>&hellip;by using additional greater-than signs right next to each other&hellip;</p>
+<blockquote>
+<p>&hellip;or with spaces between arrows.</p></blockquote></blockquote></blockquote>
+<h2 id="lists">Lists
+</h2><p>Unordered</p>
+<ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:
+<ul>
+<li>Marker character change forces new list start:
+<ul>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+<ul>
+<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+<ul>
+<li>Nulla volutpat aliquam velit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Very easy!</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>
+<p>Lorem ipsum dolor sit amet</p>
+</li>
+<li>
+<p>Consectetur adipiscing elit</p>
+</li>
+<li>
+<p>Integer molestie lorem at massa</p>
+</li>
+<li>
+<p>You can use sequential numbers&hellip;</p>
+</li>
+<li>
+<p>&hellip;or keep all the numbers as <code>1.</code></p>
+</li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol start="57">
+<li>foo</li>
+<li>bar</li>
+</ol>
+<h2 id="code">Code
+</h2><p>Inline <code>code</code></p>
+<p>Indented code</p>
+<pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre>
+<p>Block code &ldquo;fences&rdquo;</p>
+<pre tabindex="0"><code>Sample text here...
+</code></pre><p>Syntax highlighting</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">foo</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span> (<span style="color:#a6e22e">bar</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">bar</span><span style="color:#f92672">++</span>;
+</span></span><span style="display:flex;"><span>};
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">foo</span>(<span style="color:#ae81ff">5</span>));
+</span></span></code></pre></div><h2 id="tables">Tables
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>Option</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>data</td>
+          <td>path to data files to supply the data that will be passed into templates.</td>
+      </tr>
+      <tr>
+          <td>engine</td>
+          <td>engine to be used for processing templates. Handlebars is the default.</td>
+      </tr>
+      <tr>
+          <td>ext</td>
+          <td>extension to be used for dest files.</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>Right aligned columns</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: right">Option</th>
+          <th style="text-align: right">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: right">data</td>
+          <td style="text-align: right">path to data files to supply the data that will be passed into templates.</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">engine</td>
+          <td style="text-align: right">engine to be used for processing templates. Handlebars is the default.</td>
+      </tr>
+      <tr>
+          <td style="text-align: right">ext</td>
+          <td style="text-align: right">extension to be used for dest files.</td>
+      </tr>
+  </tbody>
+</table></div>
+<h2 id="links">Links
+</h2><p><a class="link" href="http://dev.nodeca.com"  target="_blank" rel="noopener"
+    >link text</a></p>
+<p><a class="link" href="http://nodeca.github.io/pica/demo/"  title="title text!"
+     target="_blank" rel="noopener"
+    >link with title</a></p>
+<p>Autoconverted link <a class="link" href="https://github.com/nodeca/pica"  target="_blank" rel="noopener"
+    >https://github.com/nodeca/pica</a> (enable linkify to see)</p>
+<h2 id="images">Images
+</h2><p><img src="https://octodex.github.com/images/minion.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Minion"
+	
+	
+>
+<img src="https://octodex.github.com/images/stormtroopocat.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Stormtroopocat"
+	
+	
+></p>
+<p>Like links, Images also have a footnote style syntax</p>
+<p><img src="https://octodex.github.com/images/dojocat.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="Alt text"
+	
+	
+></p>
+<p>With a reference later in the document defining the URL location:</p>
+<h2 id="plugins">Plugins
+</h2><p>The killer feature of <code>markdown-it</code> is very effective support of
+<a class="link" href="https://www.npmjs.org/browse/keyword/markdown-it-plugin"  target="_blank" rel="noopener"
+    >syntax plugins</a>.</p>
+<h3 id="emojies"><a class="link" href="https://github.com/markdown-it/markdown-it-emoji"  target="_blank" rel="noopener"
+    >Emojies</a>
+</h3><blockquote>
+<p>Classic markup: :wink: :cry: :laughing: :yum:</p>
+<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p></blockquote>
+<p>see <a class="link" href="https://github.com/markdown-it/markdown-it-emoji#change-output"  target="_blank" rel="noopener"
+    >how to change output</a> with twemoji.</p>
+<h3 id="subscript--superscript"><a class="link" href="https://github.com/markdown-it/markdown-it-sub"  target="_blank" rel="noopener"
+    >Subscript</a> / <a class="link" href="https://github.com/markdown-it/markdown-it-sup"  target="_blank" rel="noopener"
+    >Superscript</a>
+</h3><ul>
+<li>19^th^</li>
+<li>H<del>2</del>O</li>
+</ul>
+<h3 id="ins"><a class="link" href="https://github.com/markdown-it/markdown-it-ins"  target="_blank" rel="noopener"
+    >&lt;ins&gt;</a>
+</h3><p>++Inserted text++</p>
+<h3 id="mark"><a class="link" href="https://github.com/markdown-it/markdown-it-mark"  target="_blank" rel="noopener"
+    >&lt;mark&gt;</a>
+</h3><p>==Marked text==</p>
+<h3 id="footnotes"><a class="link" href="https://github.com/markdown-it/markdown-it-footnote"  target="_blank" rel="noopener"
+    >Footnotes</a>
+</h3><p>Footnote 1 link<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Footnote 2 link<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference<sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<h3 id="definition-lists"><a class="link" href="https://github.com/markdown-it/markdown-it-deflist"  target="_blank" rel="noopener"
+    >Definition lists</a>
+</h3><dl>
+<dt>Term 1</dt>
+<dd>
+<p>Definition 1
+with lazy continuation.</p>
+</dd>
+<dt>Term 2 with <em>inline markup</em></dt>
+<dd>
+<p>Definition 2</p>
+<pre><code>{ some code, part of Definition 2 }
+</code></pre>
+<p>Third paragraph of definition 2.</p>
+</dd>
+</dl>
+<p><em>Compact style:</em></p>
+<p>Term 1
+~ Definition 1</p>
+<p>Term 2
+~ Definition 2a
+~ Definition 2b</p>
+<h3 id="abbreviations"><a class="link" href="https://github.com/markdown-it/markdown-it-abbr"  target="_blank" rel="noopener"
+    >Abbreviations</a>
+</h3><p>This is HTML abbreviation example.</p>
+<p>It converts &ldquo;HTML&rdquo;, but keep intact partial entries like &ldquo;xxxHTMLyyy&rdquo; and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
+<h3 id="custom-containers"><a class="link" href="https://github.com/markdown-it/markdown-it-container"  target="_blank" rel="noopener"
+    >Custom containers</a>
+</h3><p>::: warning
+<em>here be dragons</em>
+:::</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Footnote <strong>can have markup</strong></p>
+<p>and multiple paragraphs.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Footnote text.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/hugo/">Hugo</a>
+        
+            <a href="/tags/cloudflare/">Cloudflare</a>
+        
+            <a href="/tags/github/">Github</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+	const mainArticleElement = document.querySelector(".main-article");
+        renderMathInElement(mainArticleElement, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2025 Zechao Jin
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.30.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.bf09e8946d934654743cb5865ea6957fe17bef62b6b6da7e0e7d56932c993fd7.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
