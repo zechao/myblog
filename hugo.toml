@@ -44,3 +44,6 @@ pages = 1
 swapColumns = true
 
 
+[params.comments]
+enabled = true
+provider = "disqus"
