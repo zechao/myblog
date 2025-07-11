@@ -1,4 +1,4 @@
-baseURL = 'https://www.devzechao.com/'
+baseURL = 'https://myblog-47x.pages.dev/'
 title = 'Zechao Jin'
 languageCode = 'en-us'
 theme = ["hugo-theme-stack", "almeida-cv"]
