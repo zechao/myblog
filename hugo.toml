@@ -2,7 +2,7 @@ baseURL = 'https://myblog-47x.pages.dev/'
 title = 'Zechao Jin'
 languageCode = 'en-us'
 theme = ["hugo-theme-stack", "almeida-cv"]
-
+disqusShortname = "my-blog-fatqwlaghe"
 
 [params.sidebar.avatar]
 enabled = true
