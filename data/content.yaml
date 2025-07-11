@@ -1,0 +1,123 @@
+BasicInfo:
+  FirstName: Zechao
+  LastName: Jin
+  Photo: /img/zechao.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: zechao158@gmail.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://devzechao.com" target="_blank">devzechao.com</a>
+    - Icon: fas fa-globe
+      Info: '<a class="contact__link" href="https://github.com/zechao" target="_blank">Github: https://github.com/zechao</a>'
+    - Icon: fas fa-map-marker-alt
+      Info: Palma de Mallorca, Spain
+
+Profile: I'm a Seasoned backend engineer with 7+ years of experience specializing in Golang. Proven expertise in building scalable microservices, robust APIs, and event-driven systems. Comfortable across the stack with interests in full-stack development, data science. Passionate about solving complex problems and continuously learning new technologies.
+
+Experience:
+  - Employer: AREX Markets and Bankable
+    Place: Remote
+    Positions:
+      - Title: Senior Backend Engineer (Golang/Javascript)
+        Date: June 2021 - Present
+        Details:
+          - Developed event-driven Golang microservices to automate company onboarding workflows, including contract generation and third-party integrations (Scrive for e-signing, DocSpring/JSReport for contract generation, Creditsafe for company credit checks, The Gazette public records, etc.). Built a Decision Engine to evaluate company credit ratings, insolvency risks, and financial health, enabling automatic acceptance or rejection of companies during onboarding.
+          - Created REST APIs and Vue frontend panels for admin dashboards managing companies, partners, contracts, pricing, risk, and bank accounts.
+          - Integrated LLMs to automate invoice form filling by extracting key invoice fields, enhancing speed and accuracy.
+          - Migrated and refactored legacy Node.js services, boosting performance and maintainability.
+          - Utilized AWS SQS/SNS, gRPC, AWS S3, and PostgreSQL for asynchronous messaging, internal communication, file storage, and data persistence.
+      - Badges:
+          [
+            Golang,
+            Vue,
+            Protobuf,
+            Docker,
+            K8S,
+            AWS SQS/SNS,
+            AWS S3,
+            Postgres,
+            Datadog,
+          ]
+  - Employer: TravelgateX
+    Place: Palma de Mallorca
+    Positions:
+      - Title: Backend Engineer (Golang)
+        Date: Apr. 2018 - May. 2021
+        Details:
+          - Developed HotelX microservices in Golang for hotel search, booking, static data management, and hotel configurations (room types, rates, amenities, etc.), scaling to handle over 7 billion daily hotel search requests with REST and GraphQL APIs. Designed and implemented custom search filters (whitelists/blacklists) and supplier code mapping, allowing clients to standardize results to their own systems.
+          - Optimized system performance with in-memory caching and Redis by storing clients data; use pprof to identify system bottlenecks and optimized reduce server costs.
+          - Built Protobuf-based internal service communication; used Elasticsearch for static data storage and logging, with monitoring via Kibana and Grafana; Used Consul for services configuration management.
+      - Title: Integration Engineer (C#)
+        Date: Aug. 2017 - Apr. 2018
+        Details:
+          - Integrated supplier APIs into the platform using C#, ensuring smooth connectivity and maintenance.
+      - Badges:
+          [
+            Golang,
+            C#,
+            Elasticsearch,
+            Redis,
+            Consul,
+            Protobuf,
+            GraphQL,
+            Docker,
+            JSON,
+            XML,
+          ]
+
+Education:
+  - Course: Bachelor of Computer Science, Universitat de les Illes Balears
+    Date: 2013 - 2019
+  - Course: Master of Data Science, Universitat Oberta de Catalunya
+    Date: 2020 - 2022
+
+Skills:
+  - Family: Programming
+    Items:
+      - Golang
+      - Python
+      - Javascript
+      - C#
+      - Java
+      - SQL
+  - Family: Frameworks
+    Items:
+      - Gin
+      - Vue
+      - Hugo
+      - React
+      - .NET
+  - Family: Databases
+    Items:
+      - Postgres
+      - MySQL
+      - Redis
+      - Elasticsearch
+  - Family: DevOps Tools
+    Items:
+      - Git
+      - Git Actions
+      - Docker
+      - K8S
+      - AWS
+  - Family: Communication Protocols
+    Items:
+      - Protobuf
+      - GraphQL
+      - REST
+      - gRPC
+
+Languages:
+  - Name: Chinese
+    Level: Native
+  - Name: Spanish
+    Level: Fluent
+  - Name: English
+    Level: B2
+
+Interests:
+  - Cooking
+  - Design
+  - Traveling
+  - Languages
+  - Gaming
